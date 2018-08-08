@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">LocationTracking</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="text_id" translatable="false">Manager Id</string>
+    <string name="text_password" translatable="false">Password</string>
+    <string name="text_login" translatable="false">Login</string>
+    <string name="text_not_yet_register" translatable="false">Not yet Register?</string>
+    <string name="error_message_managerid" translatable="false">Enter manager ID</string>
+    <string name="error_message_password" translatable="false">Enter Password</string>
+    <string name="text_edit" translatable="false">Edit</string>
+    <string name="text_track" translatable="false">Track</string>
+    <string name="text_logout" translatable="false">Logout</string>
+    <string name="text_forgot_password" translatable="false">Forgot Password</string>
+    <string name="text_confirm_password" translatable="false">Confirm Password</string>
+    <string name="text_name" translatable="false">Name</string>
+    <string name="text_email_id" translatable="false">Email id</string>
+    <string name="text_mobile_no" translatable="false">Mobile No.</string>
+    <string name="text_register" translatable="false">Register</string>
+    <string name="text_already_register" translatable="false">Already Register?</string>
+
+
+    <string name="error_message_id" translatable="false">Manager ID can\'t be blank</string>
+    <string name="error_message_name" translatable="false">Name can\'t be blank</string>
+    <string name="error_message_email" translatable="false">Enter valid Email</string>
+    <string name="error_mobile_number" translatable="false">Mobile Number should be 10</string>
+    <string name="error_messages_password" translatable="false">Password minimum 8 character</string>
+    <string name="error_message_confirm_password" translatable="false">Confirm Password must be same with password</string>
+    <string name="error_password_match" translatable="false">Passwords doesn\'t match</string>
+    <string name="text_update" translatable="false">UPDATE</string>
+    <string name="text_remember_me" translatable="false">Remember Me</string>
+    <string name="text_manager_id" translatable="false">Enter Your ID</string>
+    <string name="error_messages_managerId" translatable="false">Your Id is need</string>
+    <string name="text_delete" translatable="false">Delete</string>
+    <string name="refresh" translatable="false">Refresh</string>
+    <string name="text_assign_task" translatable="false">Assign Task</string>
+    <string name="text_add_employee" translatable="false">Add Employee</string>
+    <string name="text_sendmail" translatable="false">SendMail</string>
+    <string name="task_add_text">Employee Task Added Successful</string>
+    <string name="tasknot_added_text">Task Not added Check once and Try Again</string>
+    <string name="employee_data_update_text">Employee Details Updated Successfully</string>
+    <string name="not_update_text">Not Updated Successfully</string>
+    <string name="manager_data_updated_text">Your Details Updated Successfully</string>
+    <string name="manager_data_not_updated_text">Your Details not Updated Successfully</string>
+    <string name="text_emp_id">Id</string>
+    <string name="search">Search</string>
+
+</resources>

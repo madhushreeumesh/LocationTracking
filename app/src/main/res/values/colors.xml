@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#77dfd6</color>
+    <color name="primary_dark">#303F9F</color>
+
+
+
+    <color name="MycolorPrimaryDark">#173441</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="colorLoginButtonSloid">#063b53</color>
+    <color name="colorLoginButtonSolidPressed">#275468</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorLinearLayoutBackgroune">#B3275468</color>
+    <color name="EmployeeListColorPrimaryDark">#296aab</color>
+    <color name="colorEmpListToolbarBG">#0096B1</color>
+    <color name="colorEmpListBG">#1D7B95</color>
+
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+    <color name="colorConstraingLayoutBackground">#12050b26</color>
+
+    <color name="colorButton">#3d5f51</color>
+    <color name="colorButtonActive">#1bea95</color>
+</resources>

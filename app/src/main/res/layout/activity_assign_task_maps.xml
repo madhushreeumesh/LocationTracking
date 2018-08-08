@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.squareandcube.locationtracking.activity.AssignTaskMapsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingBottom="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/employeeid"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:paddingTop="8dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="0dp"
+            android:layout_marginStart="8dp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/shape_chat_edittext"
+            android:hint="Enter Employee ID" />
+
+        <EditText
+            android:id="@+id/task_id"
+            android:layout_width="280dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:inputType="text"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_chat_edittext"
+            android:hint="Task No"/>
+
+    </LinearLayout>
+        <ImageView
+            android:id="@+id/button"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:scaleType="centerCrop"
+            android:tint="@color/color_white"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_send_white_24dp"/>
+
+    </RelativeLayout>
+   </fragment>
+</RelativeLayout>

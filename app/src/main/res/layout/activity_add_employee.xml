@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorEmpListBG"
+    tools:context="com.squareandcube.locationtracking.activity.AddEmployeeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dimen_16dp"
+            android:paddingBottom="@dimen/dimen_16dp">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dimen_16dp"
+                android:layout_marginStart="@dimen/dimen_16dp"
+                android:background="@color/colorConstraingLayoutBackground">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/employeeid_textInputEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dimen_16dp"
+                    android:layout_marginStart="@dimen/dimen_16dp"
+                    android:layout_marginTop="@dimen/dimen_8dp"
+                    android:background="@null"
+                    android:drawableEnd="@drawable/ic_perm_identity_white_24dp"
+                    android:hint="@string/text_emp_id"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/dimen_8dp"
+                    android:paddingEnd="@dimen/dimen_8dp"
+                    android:paddingStart="0dp"
+                    android:paddingTop="@dimen/dimen_8dp"
+                    android:textColor="@color/colorWhite"
+                    android:textColorHint="@color/colorWhite"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginEnd="@dimen/dimen_16dp"
+                    android:layout_marginStart="@dimen/dimen_16dp"
+                    android:layout_marginTop="@dimen/dimen_8dp"
+                    android:background="@color/colorWhite"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/employeeid_textInputEditText" />
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/employee_mobile_textInputEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dimen_46dp"
+                    android:layout_marginEnd="@dimen/dimen_16dp"
+                    android:layout_marginStart="@dimen/dimen_16dp"
+                    android:layout_marginTop="@dimen/dimen_4dp"
+                    android:background="@null"
+                    android:drawableEnd="@drawable/ic_phone_android_white_24dp"
+                    android:hint="@string/text_mobile_no"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/dimen_8dp"
+                    android:paddingEnd="@dimen/dimen_8dp"
+                    android:paddingStart="0dp"
+                    android:paddingTop="@dimen/dimen_8dp"
+                    android:textColor="@color/colorWhite"
+                    android:textColorHint="@color/colorWhite"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view" />
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginEnd="@dimen/dimen_16dp"
+                    android:layout_marginStart="@dimen/dimen_16dp"
+                    android:layout_marginTop="@dimen/dimen_4dp"
+                    android:background="@color/colorWhite"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/employee_mobile_textInputEditText" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/textInputLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dimen_16dp"
+                    android:layout_marginStart="@dimen/dimen_16dp"
+                    android:background="@null"
+                    android:textColorHint="@color/colorWhite"
+                    app:hintEnabled="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view3"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/colorWhite">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/employee_password_textInputEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:backgroundTint="@color/colorWhite"
+                        android:hint="@string/text_password"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:textColor="@color/colorWhite"
+                        android:textColorHint="@color/colorWhite" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:id="@+id/view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginEnd="@dimen/dimen_16dp"
+                    android:layout_marginStart="@dimen/dimen_16dp"
+                    android:background="@color/colorWhite"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/manager_id_textInputEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dimen_16dp"
+                    android:layout_marginStart="@dimen/dimen_16dp"
+                    android:layout_marginTop="@dimen/dimen_8dp"
+                    android:background="@null"
+                    android:enabled="false"
+                    android:hint="@string/text_manager_id"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/dimen_8dp"
+                    android:paddingEnd="@dimen/dimen_8dp"
+                    android:paddingStart="0dp"
+                    android:drawableEnd="@drawable/ic_perm_identity_white_24dp"
+                    android:paddingTop="@dimen/dimen_8dp"
+                    android:textColor="@color/colorWhite"
+                    android:textColorHint="@color/colorWhite"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view4" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginEnd="@dimen/dimen_16dp"
+                    android:layout_marginStart="@dimen/dimen_16dp"
+                    android:background="@color/colorWhite"
+                    app:layout_constraintBottom_toTopOf="@+id/button_update_employee"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/manager_id_textInputEditText"
+                    app:layout_constraintVertical_bias="0.272" />
+
+                <Button
+                    android:id="@+id/button_update_employee"
+                    android:layout_width="@dimen/dimen_117dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/dimen_16dp"
+                    android:layout_marginEnd="@dimen/dimen_8dp"
+                    android:layout_marginStart="@dimen/dimen_8dp"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:background="@drawable/shape_login_button"
+                    android:text="@string/text_update"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.502"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/manager_id_textInputEditText" />
+
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
